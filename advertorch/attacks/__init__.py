@@ -16,6 +16,8 @@ from .one_step_gradient import GradientSignAttack
 from .one_step_gradient import FGM
 from .one_step_gradient import FGSM
 
+from .one_step_spectral import OSSAL2Attack
+
 from .iterative_projected_gradient import FastFeatureAttack
 from .iterative_projected_gradient import L2BasicIterativeAttack
 from .iterative_projected_gradient import LinfBasicIterativeAttack
